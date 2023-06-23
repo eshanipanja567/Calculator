@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator by Eshani Panja</title>
+</head>
+<body>
+    <form action="" name="calculator">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" id="display" disabled></td>
+            </tr><br><br>
+            <tr>
+                <tr><input type="button" value="1" onclick="calculator.display.value+='1'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="2" onclick="calculator.display.value+='2'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="3" onclick="calculator.display.value+='3'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="+" onclick="calculator.display.value+='+'">&nbsp;&nbsp;</tr>
+            </tr><br><br>
+            <tr>
+                <tr><input type="button" value="4" onclick="calculator.display.value+='4'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="5" onclick="calculator.display.value+='5'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="6" onclick="calculator.display.value+='6'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="-" onclick="calculator.display.value+='-'">&nbsp;&nbsp;</tr>
+            </tr><br><br>
+            <tr>
+                <tr><input type="button" value="7" onclick="calculator.display.value+='7'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="8" onclick="calculator.display.value+='8'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="9" onclick="calculator.display.value+='9'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="*" onclick="calculator.display.value+='*'">&nbsp;&nbsp;</tr>
+            </tr><br><br>
+            <tr>
+                <tr><input type="button" value="c" onclick="calculator.display.value=''">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="0" onclick="calculator.display.value+='0'">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="=" onclick="calculator.display.value=eval(calculator.display.value)">&nbsp;&nbsp;</tr>
+                <tr><input type="button" value="/" onclick="calculator.display.value+='/'">&nbsp;&nbsp;</tr>
+            </tr><br><br>
+        </table>
+    </form>
+    
+</body>
+</html>
